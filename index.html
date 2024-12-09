@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 	<head>
@@ -33,10 +34,11 @@
 			        -webkit-transform: rotate(360deg); 
 			        transform:rotate(360deg); 
 			    } 
-			}			
+			}
+			#wallet { filter:grayscale(1); }
+			#wallet:hover { filter:grayscale(0); }
 			#sol {
 				height:30px;
-				filter:grayscale(1);
 				vertical-align:middle;	
 				border-radius: 30px;
   				border: 2px solid gray;
@@ -54,7 +56,7 @@
 			</map>			
 			<br>
 			<br>
-			<img src="sol.svg" id="sol" /> : kwhHzM1eC5fC9SdJC1uB3D31x778ShQijPNY2ToLNYd
+			<span id="wallet"><img src="sol.svg" id="sol" /> : kwhHzM1eC5fC9SdJC1uB3D31x778ShQijPNY2ToLNYd</span>
 			<br>
 			<br>
 			<table id="roadmap">
